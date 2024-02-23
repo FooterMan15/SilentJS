@@ -1,0 +1,45 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "All rights reserved" # https://choosealicense.com/
+
+
+# issueTrackerURL="https://github.com/invalid/pleasechangeme/issues"
+
+[[mods]]
+modId = "silentjs"
+version = "${version}"
+displayName = "SilentJS"
+logoFile="icon.png"
+# credits="Thanks to FooterMan for the KubeJS Addon Template!"
+authors="FooterMan"
+description = '''
+KubeJS Addon for Silent Gear.
+'''
+
+[[dependencies.silentjs]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.silentjs]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.silentjs]]
+modId = "kubejs"
+mandatory = true
+versionRange = "[2001.6.4,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.silentjs]]
+modId = "silentgear"
+mandatory = true
+versionRange = "[3.5,)"
+ordering = "NONE"
+side = "BOTH"
