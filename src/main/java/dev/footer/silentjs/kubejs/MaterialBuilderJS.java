@@ -23,6 +23,7 @@ public class MaterialBuilderJS extends BuilderBase<MaterialBuilder> {
         return Plugin.SILENT_MATERIAL;
     }
 
+    //TODO: Add support for all input types
     @Override
     public MaterialBuilder createObject() {
         return new MaterialBuilder(id, tier, tag);
