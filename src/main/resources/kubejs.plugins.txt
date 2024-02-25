@@ -1,1 +1,1 @@
-dev.footer.silentjs.kube.Plugin
+dev.footer.silentjs.kubejs.Plugin
